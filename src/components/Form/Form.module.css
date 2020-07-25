@@ -1,0 +1,27 @@
+.form {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto 20px;
+}
+
+.form input {
+    width: 100%;
+    border: none;
+    background: rgba(255, 255, 255, 0.384);
+    height: 50px;
+    border-radius: 3px;
+}
+
+.form input::placeholder {
+    text-align: center;
+    font-family: 'Epilogue', sans-serif;
+    color: rgba(255, 255, 255, 0.747);
+    font-size: 0.8rem;
+}
+
+.form input[type=text] {
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.3rem;
+}

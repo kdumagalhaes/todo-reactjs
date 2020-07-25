@@ -1,0 +1,46 @@
+.card {
+    width: 100%;
+    max-width: 400px;
+    background-color: #fff;
+    box-shadow: 1px 1px 5px var(--green);
+    padding: 15px;
+    margin: 0 auto 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+    transition: all 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.01);
+}
+
+.card .deleteBtn {
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 2px;
+    color: rgb(160, 60, 43);
+    cursor: pointer;
+    font-size: 0.6rem;
+    font-weight: 600;
+}
+
+.card .deleteBtn {
+    background-color: rgb(255, 99, 71);
+    transition: all 0.5s;
+}
+
+.card .deleteBtn:hover {
+    background-color: rgb(196, 78, 57);
+}
+
+.card .dragIcon {
+    color: #ddd;
+    width: 15px;
+    height: 15px;
+    font-size: 0.9rem;
+    margin-right: 10px;
+    cursor: grab;
+}
+

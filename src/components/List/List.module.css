@@ -1,0 +1,64 @@
+.list {
+    margin: 0 auto;
+}
+
+.list ul li {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgb(228, 228, 228);
+    padding-bottom: 20px;
+}
+
+.list ul li:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.list input, span, button{
+    margin-right: 15px;
+}
+
+.list span {
+    flex: 1;
+    color: var(--gray);
+}
+
+.list button:last-child {
+    margin-right: 0;
+}
+
+.list input {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.list .editBtn, .deleteBtn {
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.list .editBtn {
+    background-color: var(--light-green);
+    transition: all 0.3s;
+}
+
+.list .editBtn:hover {
+    background-color: #7db8b5;
+}
+
+.list .deleteBtn {
+    background-color: rgb(255, 99, 71);
+    transition: all 0.5s;
+}
+
+.list .deleteBtn:hover {
+    background-color: rgb(196, 78, 57);
+}
